@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olivia Yip's Portfolio - Resume Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      font-family: 'Be Vietnam', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #a9a496;
+      color: white;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      padding: 30px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #ece3dd;
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #a1a0a0;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #3d4e5b;
+      font-weight: bold;
+    }
+
+    .resume {
+      text-align: center;
+      padding: 50px 10%;
+      box-sizing: border-box;
+    }
+
+    .resume img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #ece3dd;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      background-color: #a9a496;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .resume {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://oliviayiip.github.io/Yip_Olivia_a3/" style="text-decoration: none; color: white;">
+      <h1>Olivia Yip's Portfolio</h1>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="https://oliviayiip.github.io/about-me-page/">About Me</a></li>
+        <li><a href="https://oliviayiip.github.io/resume-page/" class="active">Resume</a></li>
+        <li><a href="https://oliviayiip.github.io/projects-page/">Projects</a></li>
+        <li><a href="https://oliviayiip.github.io/contact-me-page/">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="resume">
+    <h2>My Resume</h2>
+    <a href="https://drive.google.com/file/d/1d6cr2WLTgybcfmmLDO5CugBFoy76zqWZ/view" target="_blank">
+      <img src="Resume - Olivia Yip.pdf" alt="Olivia Yip's Resume" width="700">
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2024 Olivia Yip. All Rights Reserved.
+  </footer>
+</body>
+</html>
 
